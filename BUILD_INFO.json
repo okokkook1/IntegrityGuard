@@ -1,0 +1,50 @@
+{
+  "application": "IntegrityGuard",
+  "version": "1.1.1",
+  "platform": "Windows x64",
+  "python_runtime": "3.10.10",
+  "tcl_tk": "8.6.12",
+  "packager": "PyInstaller 6.22.3",
+  "default_algorithm": "blake3",
+  "native_blake3_version": "1.0.10",
+  "default_workers": 4,
+  "operation_controls": [
+    "pause",
+    "resume",
+    "cancel"
+  ],
+  "executable_sha256": "2bdea9ab4ca6e0b1e135492e847cf0d63bc645dc1717e4584fc4347324ae3f1e",
+  "validation": {
+    "unittest_total": 105,
+    "passed": 104,
+    "skipped": 1,
+    "skip_reason": "Windows account does not permit real symbolic link creation",
+    "packaged_gui_startup": "passed",
+    "packaged_file_scan_e2e": "passed",
+    "native_schedule_xml_validation": [
+      "daily",
+      "weekly",
+      "hourly"
+    ],
+    "real_content_pause_resume_cancel": "passed",
+    "same_size_restored_mtime_changes": "detected",
+    "legacy_sha256_baselines": "passed",
+    "windows_executable_mode_regression": "passed",
+    "drive_root_protected_scope_regression": "passed",
+    "partial_baseline_never_clean": "passed",
+    "native_windows_exclusive_lock_baseline": "passed",
+    "failed_baseline_preserves_previous": "passed",
+    "live_schedule_registration": "not performed"
+  },
+  "benchmark": {
+    "files": 2008,
+    "bytes": 276627456,
+    "measured_rounds": 3,
+    "cache": "warm",
+    "statistic": "median",
+    "v1_baseline_seconds": 1.9921,
+    "v11_baseline_seconds": 0.9466,
+    "v1_scan_seconds": 1.8906,
+    "v11_scan_seconds": 0.9529
+  }
+}

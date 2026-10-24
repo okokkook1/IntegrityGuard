@@ -1,0 +1,22 @@
+IntegrityGuard 1.1.1
+
+The standalone executable contains the Python 3.10.10 runtime and Tcl/Tk 8.6.
+It was packaged with PyInstaller 6.22.3.
+
+The executable includes BLAKE3 Python bindings 1.0.10, using the BLAKE3 Rust
+implementation, under CC0-1.0 OR Apache-2.0 as stated in
+LICENSES/BLAKE3-LICENSE.txt. The module also uses typing_extensions;
+its PSF license and notices are in LICENSES/typing_extensions-LICENSE.txt.
+
+Python is distributed under the Python Software Foundation License and
+historical licenses included in LICENSES/Python-LICENSE.txt.
+
+Tcl/Tk licenses and copyright notices are included in LICENSES/Tcl-LICENSE.txt
+and LICENSES/Tk-LICENSE.txt.
+
+PyInstaller is distributed under GPL with its exception for distributing
+applications. Its full license is included in LICENSES/PyInstaller-LICENSE.txt.
+The PyInstaller licensing exception permits distributing generated executables
+under the application's own license.
+
+IntegrityGuard application source is distributed under the MIT license in LICENSE.

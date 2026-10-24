@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 建置產物（發行檔請上傳至 GitHub Releases）
+IntegrityGuard.exe
+*.zip
+build/
+dist/
+*.spec
+work/
+
+# 執行時產生的本機資料
+profile.json
+baseline.json
+last_run.json
+scan.lock
+reports/
+
+# 作業系統
+Thumbs.db
+desktop.ini
+.DS_Store
